@@ -1,17 +1,24 @@
 {
-  "name": "ghost",
+  "name": "ghost-theme",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "node utils/scripts/dev-server.mjs"
+    "dev": "node utils/scripts/dev-server.mjs",
+    "build": "node utils/scripts/build.mjs",
+    "zip": "npm run build && bestzip ../$npm_package_name.zip assets/* partials/* members/* *.hbs package.json",
+    "test": "npx gscan .",
+    "pretest": "npm run build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "bestzip": "^2.2.1",
+    "browserslist": "^4.23.2",
     "chokidar": "^3.6.0",
     "esbuild": "^0.23.0",
-    "gscan": "^4.43.1"
+    "gscan": "^4.43.1",
+    "lightningcss": "^1.25.1"
   }
 }
