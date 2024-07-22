@@ -4,16 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node utils/scripts/dev-server.mjs"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^20.14.11",
     "chokidar": "^3.6.0",
-    "esbuild": "0.23.0",
-    "lightningcss": "^1.25.1",
-    "tsx": "^4.16.2"
+    "esbuild": "^0.23.0",
+    "gscan": "^4.43.1"
   }
 }
