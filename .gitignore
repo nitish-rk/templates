@@ -131,3 +131,5 @@ dist
 
 .astro
 scratch**
+
+pnpm-lock.yaml
