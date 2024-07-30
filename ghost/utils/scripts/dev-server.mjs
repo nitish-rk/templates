@@ -74,7 +74,7 @@ async function handleChange(options, clients) {
         `data: ${JSON.stringify({
           message: `Change detected in ${path}`,
           action: "reload",
-        })}\n\n`
+        })}\n\n`,
       );
     });
   } catch (e) {
@@ -105,7 +105,7 @@ process.on("SIGINT", () => {
       `data: ${JSON.stringify({
         message: `Server is shutting down.`,
         action: "close",
-      })}\n\n`
+      })}\n\n`,
     );
     client.end();
   });

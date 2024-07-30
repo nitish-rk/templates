@@ -1,0 +1,27 @@
+{
+  "$schema": "https://biomejs.dev/schemas/1.8.3/schema.json",
+  "files": {
+    "ignore": ["**/node_modules/**/*", ".astro/*"],
+    "ignoreUnknown": true
+  },
+  "css": {
+    "linter": {
+      "enabled": true
+    }
+  },
+  "organizeImports": {
+    "enabled": true
+  },
+  "formatter": {
+    "enabled": false
+  },
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "all": true,
+      "nursery": {
+        "all": false
+      }
+    }
+  }
+}
