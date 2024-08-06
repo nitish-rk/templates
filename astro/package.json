@@ -2,7 +2,6 @@
   "name": "astro",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "format": "prettier . --write --ignore-unknown",
     "lint": "biome lint --write",

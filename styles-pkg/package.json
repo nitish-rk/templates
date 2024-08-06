@@ -1,0 +1,17 @@
+{
+  "name": "styles-pkg",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "format": "prettier . --write --ignore-unknown",
+    "lint": "stylelint **/*.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^3.3.3",
+    "stylelint": "^16.8.1",
+    "stylelint-config-standard": "^36.0.1"
+  }
+}
