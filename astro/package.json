@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "format": "prettier . --write --ignore-unknown",
-    "dev": "astro dev"
+    "lint": "biome lint --write",
+    "build": "astro build",
+    "dev": "astro dev",
+    "preview": "astro preview"
   },
   "keywords": [],
   "author": "",
